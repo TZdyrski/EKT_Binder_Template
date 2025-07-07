@@ -4,6 +4,7 @@
     #pkgimages="no",
     # This makes Julia compile faster, and run slightly slower.
     #optimize=1,
+    sysimage="sysimage.so",
 
     # Pluto security options:
     # Disable authentication – jupyter/binder already does its own auth, no need to add more.
